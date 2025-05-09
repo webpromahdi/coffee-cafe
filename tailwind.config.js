@@ -5,7 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+        cursive: ["Caveat Brush", "cursive"]
+      },
+      colors: {
+        primary: "#854d3d",
+        secondary: "#4a1e1b",
+        brandDark: "#270c03",
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+        },
+      },
+    },
   },
   plugins: [],
 }
